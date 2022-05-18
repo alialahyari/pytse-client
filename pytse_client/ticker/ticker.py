@@ -639,6 +639,10 @@ class Ticker:
             market_cap=market_cap,
             nav_date=nav_date,
         )
+    @property
+    def TR(self):
+        print(max{(high_price - low_price), abs(high_price - yesterday_price , abs(low_price - yesterday_price)})
+    
 
     @property
     @functools.lru_cache()
